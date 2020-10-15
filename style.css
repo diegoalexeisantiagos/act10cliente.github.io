@@ -1,0 +1,68 @@
+*{
+box-sizing : border-box ;
+}
+body {
+margin: 0 ;
+font-family: sans-serif ;
+background: #a8a8a8 ;
+}
+h1{
+color: rgb(49, 53, 54);
+text-align: center ;
+}
+.form-register {
+width: 95% ;
+max-width : 500px ;
+margin : auto ;
+background : rgb(33, 57, 80) ;
+border-radius : 7px ;
+}
+.form__titulo{
+background: rgb(69, 76, 114) ;
+color: rgb(255, 255, 255) ;
+padding : 20px ;
+text-align : center ;
+font-weight : 100 ;
+font-size : 30px ;
+border-top-left-radius: 7px ;
+border-bottom : 5px solid rgb(49, 53, 54) ;
+}
+.contenedor-inputs {
+padding: 10px 30px ;
+display: flex ;
+flex-wrap: wrap ;
+justify-content : space-between ;
+}
+input {
+margin-bottom : 15px ;
+padding: 15px ;
+font-size : 16px ;
+border-radius : 3px ;
+border: 1px solid  gray;
+}
+.input-48{
+width : 48% ;
+}
+input-100{
+    width : 100% ;
+}
+.btn-enviar {
+background : rgb(223, 220, 181) ;
+color: rgb(107, 107, 101);
+margin:auto ;
+padding: 10px 40px ;
+cursor: pointer ;
+font-size : 20px ;
+}
+.btn-enviar:active {
+transform: scale(1.05) ;
+}
+.form-link {
+width: 100% ;
+margin: 7px ;
+text-align : center ;
+font-size : 14px ;
+}
+p{
+    background-color: rgb(218, 218,218);
+}
